@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soon Bakery — Cakes and Cookies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@400;500;600&family=Rosario:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<script src="js/cart.js" defer></script>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Top announcement bar -->
+  <div class="announcement-bar">
+    Free delivery island-wide for purchases over $100!
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-script">Soon Bakery</span>
+        <span class="logo-tagline">Cakes and Cookies</span>
+        <span class="logo-est">est. 2009</span>
+      </a>
+      <nav class="nav">
+        <a href="products.html">Our Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="checkout.html" class="cart-link" aria-label="View cart">
+          <img src="assets/Image/cart logo.png" alt="" class="cart-icon" aria-hidden="true">
+          <span class="cart-count" aria-label="0 items in cart">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <img src="assets/Image/Logo Main.png" alt="Soon Bakery — Cakes and Cookies est. 2005">
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <!-- About Us -->
+    <section id="about" class="about">
+      <div class="about-inner">
+        <div class="about-image-wrap">
+          <div class="hanging-frame">
+            <div class="frame-string"></div>
+            <div class="frame-border">
+              <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=500&fit=crop" alt="Fruit-topped mini cakes">
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <img
+          src="assets/Image/about-us-banner.png" alt="About Us" class="about-us-banner">
+          <p>
+            For over 15 years, Soon Bakery has been bringing joy to our community
+            with every batch we bake. What started as a small home kitchen has grown
+            into a beloved local bakery, but our philosophy remains the same — every
+            confectionary is homemade with natural ingredients and love. We believe
+            that the best treats come from simple, honest recipes and a whole lot of
+            heart.
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- Best Sellers -->
+<section id="products" class="best-sellers">
+
+  <img
+    class="main-banner"
+    src="assets/Image/Best Seller Banner.png"
+    alt="Best Sellers"
+  >
+
+  <div class="shop-product-grid best-seller-grid" id="product-grid"></div>
+
+</section>
+
+        <!-- Why Us -->
+    <section class="why-us">
+      <img class="main-banner why-us-banner" src="assets/Image/why-us-banner.png" alt="Why Us">
+
+      <!-- Cards are inserted from js/script.js -->
+      <div class="why-us-grid" id="why-us-grid"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Follow Us:</h3>
+        <div class="footer-links">
+          <a href="https://instagram.com/soon_bakeryy" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            @soon_bakeryy
+          </a>
+          <a href="https://facebook.com/soonbakeryy" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            @soonbakeryy
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Contact us to order:</h3>
+        <div class="footer-links">
+          <a href="https://wa.me/6596168476" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            9616 8476
+          </a>
+          <a href="mailto:bakerysoon@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 7l10 7 10-7" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            bakerysoon@gmail.com
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Pick-up Location:</h3>
+        <div class="footer-links">
+          <span class="footer-address">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M9 22V12h6v10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+            11 Lorong 8 Toa Payoh #11-310, S(310011)
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
