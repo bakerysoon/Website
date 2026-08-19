@@ -1,0 +1,72 @@
+SOON BAKERY - ORDER EMAIL SETUP
+================================
+
+The website's full no-payment checkout flow is already built:
+Cart -> Confirm Details -> Send Order Emails -> Submission Acknowledgement
+
+No payment information is requested or collected anywhere in this flow.
+
+To make the email step live, connect EmailJS once:
+
+1. Create an EmailJS account: https://www.emailjs.com/
+2. In Email Services, connect the email account you want Soon Bakery emails sent FROM.
+3. Create ONE email template.
+4. Set the template's To Email field to:
+      {{to_email}}
+5. Suggested subject:
+      Soon Bakery Order Request {{order_id}}
+6. Suggested template body:
+
+Hello {{recipient_name}},
+
+Your Soon Bakery order request has been submitted.
+
+Order reference: {{order_id}}
+Customer: {{customer_name}}
+Contact: {{customer_contact}}
+Email: {{customer_email}}
+
+ORDER
+{{order_details}}
+
+TOTAL: {{order_total}}
+Submitted: {{submitted_at}}
+
+{{payment_notice}}
+
+Thank you,
+Soon Bakery
+
+7. Open js/email-config.js and replace:
+      YOUR_PUBLIC_KEY
+      YOUR_SERVICE_ID
+      YOUR_TEMPLATE_ID
+   with your EmailJS values.
+
+The admin copy is already configured to send to:
+      antlwx123@gmail.com
+
+A second copy is automatically sent to the customer's submitted email address.
+
+IMPORTANT
+---------
+- Do not put a Gmail password or other private mail password anywhere in this website.
+- Test the form after configuring EmailJS before publishing the site.
+- The customer cart is only cleared after BOTH confirmation emails are successfully sent.
+
+
+DELIVERY VARIABLES
+------------------
+The website now also sends these EmailJS template variables:
+  {{order_subtotal}}
+  {{delivery_required}}
+  {{delivery_fee}}
+  {{delivery_address}}
+  {{delivery_postal_code}}
+  {{delivery_date}}
+  {{delivery_details}}
+
+The existing {{order_details}} variable already includes the item list, subtotal,
+delivery charge, delivery address/postal code/date (when delivery is selected),
+and final total. This means your current template can keep using
+{{order_details}} and the delivery information will appear automatically.
