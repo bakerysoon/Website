@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Order — Soon Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@400;500;600&family=Rosario:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/cart.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="js/email-config.js" defer></script>
+  <script src="js/order-confirmation.js" defer></script>
+</head>
+<body class="checkout-page">
+  <div class="announcement-bar">Free delivery island-wide for purchases over $150!</div>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-script">Soon Bakery</span>
+        <span class="logo-tagline">Cakes and Cookies</span>
+        <span class="logo-est">est. 2009</span>
+      </a>
+      <nav class="nav">
+        <a href="products.html">Our Products</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#contact">Contact Us</a>
+        <a href="checkout.html" class="cart-link" aria-label="View cart">
+          <img src="assets/Image/cart logo.png" alt="" class="cart-icon" aria-hidden="true">
+          <span class="cart-count" aria-label="0 items in cart">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="checkout-main">
+    <section class="checkout-card confirmation-card">
+      <div class="checkout-heading-row">
+        <div>
+          <p class="checkout-eyebrow">Final check</p>
+          <h1>Confirm Your Order</h1>
+        </div>
+        <a href="checkout.html" class="continue-shopping">Back to Cart</a>
+      </div>
+
+      <div class="confirmation-layout">
+        <section class="customer-details-section" aria-labelledby="customer-details-heading">
+          <h2 id="customer-details-heading">Your Details</h2>
+          <p class="confirmation-intro">Enter your contact details so we can acknowledge your order request. <strong>No payment is collected on this website.</strong></p>
+
+          <form id="customer-details-form" class="customer-details-form" novalidate>
+            <label for="customer-name">Name <span aria-hidden="true">*</span></label>
+            <input id="customer-name" name="name" type="text" autocomplete="name" required maxlength="80">
+
+            <label for="customer-contact">Contact Number <span aria-hidden="true">*</span></label>
+            <input id="customer-contact" name="contact" type="tel" autocomplete="tel" required maxlength="24" pattern="[0-9+() \-]{7,24}" title="Please enter a valid contact number.">
+
+            <label for="customer-email">Email <span aria-hidden="true">*</span></label>
+            <input id="customer-email" name="email" type="email" autocomplete="email" required maxlength="120">
+
+            <div id="delivery-details-fields" class="delivery-details-fields">
+              <p id="delivery-fields-status" class="delivery-fields-status">Delivery was not selected. Address and postal code are not required, but please select a pick-up date.</p>
+
+              <label for="delivery-address">Address <span class="delivery-only-required-mark" aria-hidden="true">*</span></label>
+              <input id="delivery-address" name="address" type="text" autocomplete="street-address" maxlength="180" disabled>
+
+              <label for="delivery-postal-code">Postal Code <span class="delivery-only-required-mark" aria-hidden="true">*</span></label>
+              <input id="delivery-postal-code" name="postalCode" type="text" autocomplete="postal-code" inputmode="numeric" maxlength="6" pattern="[0-9]{6}" title="Please enter a 6-digit Singapore postal code." disabled>
+
+              <label for="delivery-date">Delivery/Pick-Up Date <span aria-hidden="true">*</span></label>
+              <input id="delivery-date" name="deliveryDate" type="date" required>
+            </div>
+
+            <label for="additional-notes">Additional Notes <span class="optional-field-label">(Optional)</span></label>
+            <textarea
+              id="additional-notes"
+              name="additionalNotes"
+              rows="4"
+              maxlength="500"
+              placeholder="E.g. preferred collection time, cake message, allergies or other requests"
+            ></textarea>
+
+            <p class="order-no-payment-note">By submitting, you are sending an order request only. No card, PayNow, PayLah! or other payment information will be requested or collected.</p>
+            <p id="order-form-message" class="order-form-message" role="alert" hidden></p>
+            <button id="submit-order-btn" type="submit" class="checkout-payment-btn">SUBMIT ORDER REQUEST</button>
+          </form>
+        </section>
+
+        <aside class="confirmation-review" aria-labelledby="order-review-heading">
+          <h2 id="order-review-heading">Order Summary</h2>
+          <div id="confirmation-order-items" class="confirmation-order-items"></div>
+          <div class="confirmation-pricing">
+            <div class="confirmation-price-row">
+              <span>Subtotal</span>
+              <strong id="confirmation-subtotal">$0.00</strong>
+            </div>
+            <div id="confirmation-delivery-row" class="confirmation-price-row" hidden>
+              <span>Delivery</span>
+              <strong id="confirmation-delivery">$0.00</strong>
+            </div>
+            <div class="confirmation-total-row">
+              <span>Total</span>
+              <strong id="confirmation-total">$0.00</strong>
+            </div>
+          </div>
+          <p class="confirmation-invoice-note">After successful submission, a copy of the order summary will be emailed to you and to Soon Bakery.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Follow Us:</h3>
+        <div class="footer-links">
+          <a href="https://instagram.com/soon_bakeryy" target="_blank" rel="noopener">@soon_bakeryy</a>
+          <a href="https://facebook.com/soonbakeryy" target="_blank" rel="noopener">@soonbakeryy</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Contact us to order:</h3>
+        <div class="footer-links">
+          <a href="https://wa.me/6596168476" target="_blank" rel="noopener">9616 8476</a>
+          <a href="mailto:bakerysoon@gmail.com">bakerysoon@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Pick-up Location:</h3>
+        <div class="footer-links"><span class="footer-address">11 Lorong 8 Toa Payoh #11-310, S(310011)</span></div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
