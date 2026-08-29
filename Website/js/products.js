@@ -63,7 +63,7 @@ const shopProducts = [
     description: "There is no shame in being greedy, made so you don't have to share your yolk."
   },
   {
-    image: "\assets\Image\Products\Blueberry Chocolate 1.webp",
+    image: "assets\Image\Products\Blueberry Chocolate 1.webp",
     hoverImage: "assets/Image/Products/Blueberry Chocolate 2.webp",
     availability: true,
     name: "Blueberry Snowskin with Chocolate Filling",
@@ -73,7 +73,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Lychee Cranberry 1.webp",
+    image: "assets\Image\Products\Lychee Cranberry 1.webp",
     hoverImage: "assets/Image/Products/Lychee Cranberry 2.webp",
     availability: true,
     name: "Lychee Snowskin with Cranberry Filling",
@@ -83,7 +83,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Lychee Mango 1.webp",
+    image: "assets\Image\Products\Lychee Mango 1.webp",
     hoverImage: "assets/Image/Products/Lychee Mango 2.webp",
     availability: true,
     name: "Lychee Snowskin with Mango Filling",
@@ -93,7 +93,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Lychee Osmanthus 1.webp",
+    image: "assets\Image\Products\Lychee Osmanthus 1.webp",
     hoverImage: "assets/Image/Products/Lychee Osmanthus 2.webp",
     availability: true,
     name: "Lychee Snowskin with Osmanthus Filling",
@@ -103,7 +103,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Lychee Yuzu 1.webp",
+    image: "assets\Image\Products\Lychee Yuzu 1.webp",
     hoverImage: "assets/Image/Products/Lychee Yuzu 2.webp",
     availability: true,
     name: "Lychee Snowskin with Yuzu Filling",
@@ -113,7 +113,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Mango Osmanthus 1.webp",
+    image: "assets\Image\Products\Mango Osmanthus 1.webp",
     hoverImage: "assets/Image/Products/Mango Osmanthus 2.webp",
     availability: true,
     name: "Mango Snowskin with Osmanthus Filling",
@@ -123,7 +123,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Mango Yuzu 1.webp",
+    image: "assets\Image\Products\Mango Yuzu 1.webp",
     hoverImage: "assets/Image/Products/Mango Yuzu 2.webp",
     availability: true,
     name: "Mango Snowskin with Yuzu Filling",
@@ -133,7 +133,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Passionfruit Cranberry 1.webp",
+    image: "assets\Image\Products\Passionfruit Cranberry 1.webp",
     hoverImage: "assets/Image/Products/Passionfruit Cranberry 2.webp",
     availability: true,
     name: "Passionfruit Snowskin with Cranberry Filling",
@@ -143,7 +143,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Passionfruit Mango 1.webp",
+    image: "assets\Image\Products\Passionfruit Mango 1.webp",
     hoverImage: "assets/Image/Products/Passionfruit Mango 2.webp",
     availability: true,
     name: "Passionfruit Snowskin with Mango Filling",
@@ -153,7 +153,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Passionfruit Yuzu 1.webp",
+    image: "assets\Image\Products\Passionfruit Yuzu 1.webp",
     hoverImage: "assets/Image/Products/Passionfruit Yuzu 2.webp",
     availability: true,
     name: "Passionfruit Snowskin with Yuzu Filling",
@@ -163,7 +163,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Peppermint Chocolate 1.webp",
+    image: "assets\Image\Products\Peppermint Chocolate 1.webp",
     hoverImage: "assets/Image/Products/Peppermint Chocolate 2.webp",
     availability: true,
     name: "Peppermint Snowskin with Chocolate Filling",
@@ -173,7 +173,7 @@ const shopProducts = [
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "\assets\Image\Products\Triple Chocolate 1.webp",
+    image: "assets\Image\Products\Triple Chocolate 1.webp",
     hoverImage: "assets/Image/Products/Triple Chocolate 2.webp",
     availability: true,
     name: "Triple Chocolate Snowskin",
