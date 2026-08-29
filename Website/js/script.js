@@ -1,57 +1,61 @@
 const products = [
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Traditional White Lotus 1.webp",
+    hoverImage: "assets/Image/Products/Traditional White Lotus 2.webp",
+    availability: true,
+    name: "Traditional White Lotus Mooncake (Less Sugar) (Box of 4)",
+    price: 13,
+    category: "mid-autumn",
+    description: "The classic baked mooncake with white lotus paste. For even the health conscious to enjoy."
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Traditional Single Yolk 1.webp",
+    hoverImage: "assets/Image/Products/Traditional Single Yolk 2.webp",
+    availability: true,
+    name: "Traditional Single Yolk Mooncake (Box of 4)",
+    price: 14,
+    category: "mid-autumn",
+    description: "Some say a mooncake isn't complete without a yolk."
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Lychee Osmanthus 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Osmanthus 2.webp",
+    availability: true,
+    name: "Lychee Snowskin with Osmanthus Filling",
+    price: 5,
+    category: "mid-autumn",
+    description: `Lychee Snowskin with Osmanthus Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Mango Osmanthus 1.webp",
+    hoverImage: "assets/Image/Products/Mango Osmanthus 2.webp",
+    availability: true,
+    name: "Mango Snowskin with Osmanthus Filling",
+    price: 5,
+    category: "mid-autumn",
+    description: `Mango Snowskin with Osmanthus Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Passionfruit Mango 1.webp",
+    hoverImage: "assets/Image/Products/Passionfruit Mango 2.webp",
+    availability: true,
+    name: "Passionfruit Snowskin with Mango Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Passionfruit Snowskin with Mango Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Butter Cookies",
-    price: 20,
-    category: "cookies",
-    description: "Hello, this is a description"
+    image: "assets/Image/Products/Triple Chocolate 1.webp",
+    hoverImage: "assets/Image/Products/Triple Chocolate 2.webp",
+    availability: true,
+    name: "Triple Chocolate Snowskin",
+    price: 4,
+    category: "mid-autumn",
+    description: `Triple Chocolate Snowskin
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   }
 ];
 
