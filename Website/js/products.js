@@ -61,6 +61,126 @@ const shopProducts = [
     price: 15,
     category: "mid-autumn",
     description: "There is no shame in being greedy, made so you don't have to share your yolk."
+  },
+  {
+    image: "\assets\Image\Products\Blueberry Chocolate 1.webp",
+    hoverImage: "assets/Image/Products/Blueberry Chocolate 2.webp",
+    availability: true,
+    name: "Blueberry Snowskin with Chocolate Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Blueberry Snowskin with Chocolate Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Lychee Cranberry 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Cranberry 2.webp",
+    availability: true,
+    name: "Lychee Snowskin with Cranberry Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Lychee Snowskin with Cranberry Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Lychee Mango 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Mango 2.webp",
+    availability: true,
+    name: "Lychee Snowskin with Mango Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Lychee Snowskin with Mango Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Lychee Osmanthus 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Osmanthus 2.webp",
+    availability: true,
+    name: "Lychee Snowskin with Osmanthus Filling",
+    price: 5,
+    category: "mid-autumn",
+    description: `Lychee Snowskin with Osmanthus Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Lychee Yuzu 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Yuzu 2.webp",
+    availability: true,
+    name: "Lychee Snowskin with Yuzu Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Lychee Snowskin with Yuzu Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Mango Osmanthus 1.webp",
+    hoverImage: "assets/Image/Products/Mango Osmanthus 2.webp",
+    availability: true,
+    name: "Mango Snowskin with Osmanthus Filling",
+    price: 5,
+    category: "mid-autumn",
+    description: `Mango Snowskin with Osmanthus Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Mango Yuzu 1.webp",
+    hoverImage: "assets/Image/Products/Mango Yuzu 2.webp",
+    availability: true,
+    name: "Mango Snowskin with Yuzu Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Mango Snowskin with Yuzu Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Passionfruit Cranberry 1.webp",
+    hoverImage: "assets/Image/Products/Passionfruit Cranberry 2.webp",
+    availability: true,
+    name: "Passionfruit Snowskin with Cranberry Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Passionfruit Snowskin with Cranberry Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Passionfruit Mango 1.webp",
+    hoverImage: "assets/Image/Products/Passionfruit Mango 2.webp",
+    availability: true,
+    name: "Passionfruit Snowskin with Mango Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Passionfruit Snowskin with Mango Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Passionfruit Yuzu 1.webp",
+    hoverImage: "assets/Image/Products/Passionfruit Yuzu 2.webp",
+    availability: true,
+    name: "Passionfruit Snowskin with Yuzu Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Passionfruit Snowskin with Yuzu Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Peppermint Chocolate 1.webp",
+    hoverImage: "assets/Image/Products/Peppermint Chocolate 2.webp",
+    availability: true,
+    name: "Peppermint Snowskin with Chocolate Filling",
+    price: 4,
+    category: "mid-autumn",
+    description: `Peppermint Snowskin with Chocolate Filling
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "\assets\Image\Products\Triple Chocolate 1.webp",
+    hoverImage: "assets/Image/Products/Triple Chocolate 2.webp",
+    availability: true,
+    name: "Triple Chocolate Snowskin",
+    price: 4,
+    category: "mid-autumn",
+    description: `Triple Chocolate Snowskin
+    Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
   }
 ];
 
