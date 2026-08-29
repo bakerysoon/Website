@@ -1,7 +1,7 @@
 const shopProducts = [
   {
-    image: "assets/Image/Chiffon.png",
-    hoverImage: "assets/Image/Chiffon 2.jpg",
+    image: "assets/Image/Products/Chiffon.png",
+    hoverImage: "assets/Image/Products/Chiffon 2.jpg",
     availability: true,
     name: "Pandan Chiffon Cake 8'",
     price: 10,
@@ -36,13 +36,31 @@ const shopProducts = [
     description: "Hello, this is a description"
   },
   {
-    image: "assets/Image/not_available.jpg",
-    hoverImage: "assets/Image/not_available.jpg",
-    availability: false,
-    name: "Traditional White Lotus Mooncake",
+    image: "assets/Image/Products/Traditional White Lotus 1.webp",
+    hoverImage: "assets/Image/Products/Traditional White Lotus 2.webp",
+    availability: true,
+    name: "Traditional White Lotus Mooncake (Less Sugar) (Box of 4)",
+    price: 13,
+    category: "mid-autumn",
+    description: "The classic baked mooncake with white lotus paste. For even the health conscious to enjoy."
+  },
+  {
+    image: "assets/Image/Products/Traditional Single Yolk 1.webp",
+    hoverImage: "assets/Image/Products/Traditional Single Yolk 2.webp",
+    availability: true,
+    name: "Traditional Single Yolk Mooncake (Box of 4)",
+    price: 14,
+    category: "mid-autumn",
+    description: "Some say a mooncake isn't complete without a yolk."
+  },
+  {
+    image: "assets/Image/Products/Traditional Double Yolk 1.webp",
+    hoverImage: "assets/Image/Products/Traditional Double Yolk 2.webp",
+    availability: true,
+    name: "Traditional Double Yolk Mooncake (Box of 4)",
     price: 15,
     category: "mid-autumn",
-    description: "Hello, this is a description"
+    description: "There is no shame in being greedy, made so you don't have to share your yolk."
   }
 ];
 
