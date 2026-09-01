@@ -4,7 +4,7 @@ const products = [
     hoverImage: "assets/Image/Products/Traditional White Lotus 2.webp",
     availability: true,
     name: "Traditional White Lotus Mooncake (Less Sugar) (Box of 4)",
-    price: 13,
+    price: 40,
     category: "mid-autumn",
     description: "The classic baked mooncake with white lotus paste. For even the health conscious to enjoy."
   },
@@ -13,7 +13,7 @@ const products = [
     hoverImage: "assets/Image/Products/Traditional Single Yolk 2.webp",
     availability: true,
     name: "Traditional Single Yolk Mooncake (Box of 4)",
-    price: 14,
+    price: 44,
     category: "mid-autumn",
     description: "Some say a mooncake isn't complete without a yolk."
   },
@@ -22,7 +22,7 @@ const products = [
     hoverImage: "assets/Image/Products/Lychee Osmanthus 2.webp",
     availability: true,
     name: "Lychee Snowskin with Osmanthus Filling",
-    price: 5,
+    price: 5.5,
     category: "mid-autumn",
     description: `Lychee Snowskin with Osmanthus Filling
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
@@ -32,7 +32,7 @@ const products = [
     hoverImage: "assets/Image/Products/Mango Osmanthus 2.webp",
     availability: true,
     name: "Mango Snowskin with Osmanthus Filling",
-    price: 5,
+    price: 5.5,
     category: "mid-autumn",
     description: `Mango Snowskin with Osmanthus Filling
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
@@ -42,7 +42,7 @@ const products = [
     hoverImage: "assets/Image/Products/Passionfruit Mango 2.webp",
     availability: true,
     name: "Passionfruit Snowskin with Mango Filling",
-    price: 4,
+    price: 5.5,
     category: "mid-autumn",
     description: `Passionfruit Snowskin with Mango Filling
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
@@ -52,7 +52,7 @@ const products = [
     hoverImage: "assets/Image/Products/Triple Chocolate 2.webp",
     availability: true,
     name: "Triple Chocolate Snowskin",
-    price: 4,
+    price: 5.5,
     category: "mid-autumn",
     description: `Triple Chocolate Snowskin
     Note: There is a minimum order of 4pcs of snowskin mooncake consisting of any flavor combination of your choice.`
