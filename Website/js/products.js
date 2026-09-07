@@ -201,6 +201,36 @@ const shopProducts = [
     category: "mid-autumn",
     description: `Chendol Jelly Mooncake
     Note: There is a minimum order of 4pcs of jelly mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "assets/Image/Products/Coffee Chocolate w Baileys 1.webp",
+    hoverImage: "assets/Image/Products/Coffee Chocolate w Baileys 2.webp",
+    availability: true,
+    name: "Coffee Chocolate Snowskin with Baileys",
+    price: 6.25,
+    category: "mid-autumn",
+    description: `Coffee Chocolate Snowskin with Baileys
+    Note: There is a minimum order of 4pcs of jelly mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "assets/Image/Products/Coffee Chocolate w Whisky 1.webp",
+    hoverImage: "assets/Image/Products/Coffee Chocolate w Whisky 2.webp",
+    availability: true,
+    name: "Coffee Chocolate Snowskin with Whisky",
+    price: 6.25,
+    category: "mid-autumn",
+    description: `Coffee Chocolate Snowskin with Whisky
+    Note: There is a minimum order of 4pcs of jelly mooncake consisting of any flavor combination of your choice.`
+  },
+  {
+    image: "assets/Image/Products/Lychee Rose Mango Filling w White Chocolate 1.webp",
+    hoverImage: "assets/Image/Products/Lychee Rose Mango Filling w White Chocolate 2.webp",
+    availability: true,
+    name: "Lychee Rose Snowskin with Mango and White Chocolate",
+    price: 6.25,
+    category: "mid-autumn",
+    description: `Lychee Rose Snowskin with Mango and White Chocolate
+    Note: There is a minimum order of 4pcs of jelly mooncake consisting of any flavor combination of your choice.`
   }
 ];
 
